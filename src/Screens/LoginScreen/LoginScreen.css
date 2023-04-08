@@ -1,0 +1,89 @@
+.loginScreen {
+	position: relative;
+	height: 100%;
+	background: url('https://www.slashgear.com/img/gallery/netflix-4k-streaming-on-macos-big-sur-to-require-a-t2-security-chip/intro-import.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.loginScreen__gradient {
+	width: 100%;
+	height: 100vh;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.4);
+	background-image: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.5) 0,
+		rgba(0, 0, 0, 0) 60%,
+		rgba(0, 0, 0, 0.7) 100%
+	);
+}
+
+.loginScreen__logo {
+	position: fixed;
+	left: 0;
+	width: 150px;
+	object-fit: contain;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.loginScreen__button {
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	font-size: 1rem;
+	font-weight: 600;
+	color: white;
+	background-color: #e50914;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: none;
+	border-radius: 8px;
+}
+.loginScreen__body {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+	padding: 20px;
+	z-index: 1;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.loginScreen__body > h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+.loginScreen__body > h2 {
+	font-size: 2rem;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.loginScreen__body > h3 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-bottom: 20px;
+	color: #bfb6b6;
+}
+
+.loginScreen__input > form > input {
+	padding: 16px 20px;
+	outline-width: 0;
+	border-radius: 2px;
+	width: 30%;
+	max-width: 600px;
+	border: none;
+}
+.loginScreen__getStarted {
+	padding: 16px 20px;
+	font-size: 1rem;
+	color: white;
+	border-radius: 2px;
+	background-color: #e50914;
+	border: none;
+	cursor: pointer;
+	font-weight: 600;
+}
